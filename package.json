@@ -1,0 +1,13 @@
+{
+  "name": "headless-chrome",
+  "version": "1.0.0",
+  "author": "Wan",
+  "license": "MIT",
+  "scripts": {
+    "unpack": "brotli -df -o headless_chrome",
+    "postunpack": "chmod +x headless_chrome"
+  },
+  "dependencies": {
+    "chrome-aws-lambda": "1.13.0"
+  }
+}
